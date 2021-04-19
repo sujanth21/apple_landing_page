@@ -1,7 +1,7 @@
 .hero {
-  min-height: 70vh;
+  min-height: 65vh;
   @include flex(column, flex-start, center);
-  padding: 5rem 0;
+  padding: 5rem 0 1rem 0;
 }
 
 .header-text {
@@ -21,9 +21,13 @@
   padding-top: 1rem;
   color: #1d1d1f;
 
+  h2 {
+    font-weight: 500;
+  }
+
   h4 {
     font-weight: 400;
-    padding: 1rem 0 2rem 0;
+    padding: 0.5rem 0 1rem 0;
   }
 
   a {
@@ -35,9 +39,5 @@
 .hero-content {
   a {
     color: #0066cc;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }

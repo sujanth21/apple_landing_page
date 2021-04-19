@@ -7,10 +7,11 @@ nav {
   background: #333;
   @include flex(row, center, center);
   padding: 1rem;
+  position: sticky;
+  top: 0;
 
   .logo {
     padding-right: 6rem;
-    font-size: 2rem;
     color: #fff;
   }
 
@@ -34,6 +35,7 @@ nav {
 
   i {
     color: #ccc;
+    font-size: 2rem;
 
     &:hover {
       color: #fff;

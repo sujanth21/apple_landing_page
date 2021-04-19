@@ -1,0 +1,50 @@
+.iphone12 {
+  min-height: 65vh;
+  background: url("../img/hero_img_phones.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include flex(column, flex-start, center);
+}
+
+.iphone12-content {
+  @include flex(column, flex-start, center);
+  padding-top: 6rem;
+
+  h2,
+  h4 {
+    color: #1d1d1f;
+  }
+
+  h2 {
+    font-weight: 500;
+  }
+
+  h4 {
+    font-weight: 400;
+    padding-top: 1rem;
+  }
+
+  p {
+    padding-top: 1rem;
+    color: #999;
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+
+  a {
+    color: #0066cc;
+    font-size: 2rem;
+    padding-right: 3rem;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.iphone12-links {
+  padding-top: 1.5rem;
+  text-align: center;
+}

@@ -47,8 +47,16 @@ a {
   color: #fff;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 li {
   list-style: none;
+}
+
+.fa-chevron-right {
+  font-size: 1.3rem;
 }
 
 .main-head {
@@ -72,11 +80,13 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 nav .logo {
   padding-right: 6rem;
-  font-size: 2rem;
   color: #fff;
 }
 
@@ -112,6 +122,7 @@ nav a:hover {
 
 nav i {
   color: #ccc;
+  font-size: 2rem;
 }
 
 nav i:hover {
@@ -119,7 +130,7 @@ nav i:hover {
 }
 
 .hero {
-  min-height: 70vh;
+  min-height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,7 +144,7 @@ nav i:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 5rem 0;
+  padding: 5rem 0 1rem 0;
 }
 
 .header-text {
@@ -166,9 +177,13 @@ nav i:hover {
   color: #1d1d1f;
 }
 
+.hero-content h2 {
+  font-weight: 500;
+}
+
 .hero-content h4 {
   font-weight: 400;
-  padding: 1rem 0 2rem 0;
+  padding: 0.5rem 0 1rem 0;
 }
 
 .hero-content a {
@@ -180,8 +195,77 @@ nav i:hover {
   color: #0066cc;
 }
 
-.header-text a:hover,
-.hero-content a:hover {
-  text-decoration: underline;
+.iphone12 {
+  min-height: 65vh;
+  background: url("../img/hero_img_phones.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iphone12-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6rem;
+}
+
+.iphone12-content h2,
+.iphone12-content h4 {
+  color: #1d1d1f;
+}
+
+.iphone12-content h2 {
+  font-weight: 500;
+}
+
+.iphone12-content h4 {
+  font-weight: 400;
+  padding-top: 1rem;
+}
+
+.iphone12-content p {
+  padding-top: 1rem;
+  color: #999;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.iphone12-content a {
+  color: #0066cc;
+  font-size: 2rem;
+  padding-right: 3rem;
+}
+
+.iphone12-content a:last-child {
+  padding-right: 0;
+}
+
+.iphone12-links {
+  padding-top: 1.5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
