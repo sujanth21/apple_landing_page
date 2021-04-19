@@ -1,0 +1,9 @@
+.main-head {
+  min-height: 5vh;
+  width: 100%;
+}
+
+nav {
+  background: #333;
+  @include flex(row, center, center);
+}
