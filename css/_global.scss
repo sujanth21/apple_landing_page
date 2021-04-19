@@ -4,8 +4,56 @@
   box-sizing: border-box;
 }
 
+$header1: 2.5rem;
+$header2: 5.6rem;
+$header3: 3.2rem;
+$header4: 2.8rem;
+$header5: 2rem;
+$text: 1.6rem;
+
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: $header1;
+}
+
+h2 {
+  font-size: $header2;
+}
+
+h3 {
+  font-size: $header3;
+}
+
+h4 {
+  font-size: $header4;
+}
+
+h5 {
+  font-size: $header5;
+}
+
+p,
+input,
+textarea,
+a,
+li {
+  font-size: $text;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
 }
 
 @mixin flex($direction, $justify, $align) {

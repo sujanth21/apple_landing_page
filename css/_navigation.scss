@@ -6,4 +6,37 @@
 nav {
   background: #333;
   @include flex(row, center, center);
+  padding: 1rem;
+
+  .logo {
+    padding-right: 6rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  ul {
+    @include flex(row, center, center);
+  }
+
+  li {
+    padding-right: 8rem;
+  }
+
+  a {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #ccc;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  i {
+    color: #ccc;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }
