@@ -1,21 +1,29 @@
-.iphone12 {
-  min-height: 65vh;
-  background: url("../img/hero_img_phones.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.iphone12,
+.iphone12-pro {
+  min-height: 72vh;
 
   @include flex(column, flex-start, center);
 }
 
-.iphone12-content {
+.iphone12 {
+  background: url("../img/hero_img_phones.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1.5rem;
+}
+
+.iphone12-pro {
+  background: url("../img/iphone_black.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iphone12-content,
+.iphone12-pro-content {
   @include flex(column, flex-start, center);
   padding-top: 6rem;
-
-  h2,
-  h4 {
-    color: #1d1d1f;
-  }
 
   h2 {
     font-weight: 500;
@@ -41,6 +49,20 @@
     &:last-child {
       padding-right: 0;
     }
+  }
+}
+
+.iphone12-content {
+  h2,
+  h4 {
+    color: #1d1d1f;
+  }
+}
+
+.iphone12-pro-content {
+  h2,
+  h4 {
+    color: #fff;
   }
 }
 

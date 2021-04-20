@@ -195,12 +195,9 @@ nav i:hover {
   color: #0066cc;
 }
 
-.iphone12 {
-  min-height: 65vh;
-  background: url("../img/hero_img_phones.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.iphone12,
+.iphone12-pro {
+  min-height: 72vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,7 +213,23 @@ nav i:hover {
           align-items: center;
 }
 
-.iphone12-content {
+.iphone12 {
+  background: url("../img/hero_img_phones.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1.5rem;
+}
+
+.iphone12-pro {
+  background: url("../img/iphone_black.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iphone12-content,
+.iphone12-pro-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,38 +247,161 @@ nav i:hover {
 }
 
 .iphone12-content h2,
-.iphone12-content h4 {
-  color: #1d1d1f;
-}
-
-.iphone12-content h2 {
+.iphone12-pro-content h2 {
   font-weight: 500;
 }
 
-.iphone12-content h4 {
+.iphone12-content h4,
+.iphone12-pro-content h4 {
   font-weight: 400;
   padding-top: 1rem;
 }
 
-.iphone12-content p {
+.iphone12-content p,
+.iphone12-pro-content p {
   padding-top: 1rem;
   color: #999;
   font-weight: 400;
   font-size: 1.7rem;
 }
 
-.iphone12-content a {
+.iphone12-content a,
+.iphone12-pro-content a {
   color: #0066cc;
   font-size: 2rem;
   padding-right: 3rem;
 }
 
-.iphone12-content a:last-child {
+.iphone12-content a:last-child,
+.iphone12-pro-content a:last-child {
   padding-right: 0;
+}
+
+.iphone12-content h2,
+.iphone12-content h4 {
+  color: #1d1d1f;
+}
+
+.iphone12-pro-content h2,
+.iphone12-pro-content h4 {
+  color: #fff;
 }
 
 .iphone12-links {
   padding-top: 1.5rem;
   text-align: center;
+}
+
+.products {
+  min-height: 58vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.apple-watch {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #000;
+  height: 580px;
+}
+
+.ipad-air {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: url("../img/phone_air.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 580px;
+}
+
+.apple-watch-content,
+.ipad-air-content {
+  text-align: center;
+  padding: 4rem 0 5rem 0;
+}
+
+.apple-watch-content a,
+.ipad-air-content a {
+  color: #0066cc;
+  font-size: 1.8rem;
+  padding-right: 3rem;
+}
+
+.apple-watch-content a:last-child,
+.ipad-air-content a:last-child {
+  padding-right: 0;
+}
+
+.apple-watch-content h3 {
+  color: #fff;
+  letter-spacing: 0.2rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.apple-watch-content h5 {
+  color: #e44343;
+  font-size: 1.1rem;
+  letter-spacing: 0.3rem;
+}
+
+.apple-watch-content p {
+  color: #fff;
+  padding: 1rem 0 1.5rem 0;
+  font-size: 2.1rem;
+}
+
+.ipad-air-content h3 {
+  color: #1d1d1f;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.ipad-air-content p {
+  font-size: 2.1rem;
+  padding-bottom: 1rem;
+  color: #1d1d1f;
 }
 /*# sourceMappingURL=style.css.map */
