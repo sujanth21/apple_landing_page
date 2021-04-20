@@ -329,6 +329,7 @@ nav i:hover {
           flex: 1;
   background: #000;
   height: 580px;
+  overflow: hidden;
 }
 
 .ipad-air {
@@ -403,5 +404,106 @@ nav i:hover {
   font-size: 2.1rem;
   padding-bottom: 1rem;
   color: #1d1d1f;
+}
+
+.features {
+  min-height: 58vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fitness {
+  margin: 1rem;
+  background: #fbfbfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 580px;
+  background: #fbfbfd;
+  background-image: url("../img/watch_fit.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.apple-one {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 580px;
+  background: #fafafa;
+  background-image: url("../img/icons.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.fitness-content,
+.apple-one-content {
+  text-align: center;
+  padding: 4rem 0 5rem 0;
+}
+
+.fitness-content h3,
+.apple-one-content h3 {
+  color: #1d1d1f;
+  font-size: 4rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.fitness-content p,
+.apple-one-content p {
+  font-size: 2.1rem;
+  padding-bottom: 1rem;
+  color: #1d1d1f;
+}
+
+.fitness-content a,
+.apple-one-content a {
+  color: #0066cc;
+  font-size: 1.8rem;
+  padding-right: 3rem;
+}
+
+.fitness-content a:last-child,
+.apple-one-content a:last-child {
+  padding-right: 0;
 }
 /*# sourceMappingURL=style.css.map */
