@@ -10,4 +10,4 @@ This project developed to practise HTML,CSS skills
 
 Project Demo: https://boring-meninsky-548ea0.netlify.app/
 
-![screenshot](https://github.com/sujanth21/microsoft_landing_page/blob/master/img/landing_ms.PNG)
+![screenshot](https://github.com/sujanth21/apple_landing_page/blob/master/img/screenshot.PNG)
